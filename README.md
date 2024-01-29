@@ -14,6 +14,6 @@ Code :          xml
 
 ## Explication du code
 
-![Affichage Lancement de l'appli ](C:\Users\elkly\OneDrive\Images\Captures d’écran\android1.png)
+![Affichage Lancement de l'appli ](C:\\Users\\elkly\\OneDrive\\Images\\Captures d’écran\\android1.png)
 
 
