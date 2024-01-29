@@ -6,11 +6,11 @@ https://www.figma.com/file/6Y0MqDlAYqppkI1uefrnE1/TP-Application-design?type=des
 
 # Montres connectées
 ## Introduction
-Voci donc un léger résumé de ce que j'ai entrepris:
-Modèle :        Montres connectées
-Bonus :         Oui
-Technologie :   Android
-Code :          xml
+Voci donc un léger résumé de ce que j'ai entrepris:  
+Modèle :        Montres connectées  
+Bonus :         Oui  
+Technologie :   Android  
+Code :          xml  
 
 ## Explication du code
 
