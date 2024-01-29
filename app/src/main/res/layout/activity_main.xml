@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="Find your suitable watch now."
+        android:textColor="#1B153D"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Smart watch"
+        android:textColor="#5B41FF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        />
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="16dp"
+        android:id="@+id/whiteRectangle1"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        >
+
+        <Button
+            android:id="@+id/buttonapplewatch"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:background="#00FFFFFF"
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/whiteRectangle1" />
+
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/fond_applewatch1"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fond_applewatch1"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle1"
+        app:layout_constraintTop_toTopOf="@id/whiteRectangle1"
+        android:elevation="9dp"
+        />
+    <ImageView
+        android:id="@+id/applewatch"
+        android:layout_width="110dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="43dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/applewatch"
+        app:layout_constraintStart_toStartOf="@id/text2"
+        app:layout_constraintTop_toTopOf="@id/text2"
+        android:elevation="9dp"
+        />
+
+    <TextView
+        android:id="@+id/textapplewatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:elevation="9dp"
+        android:text="Apple Watch"
+        android:textColor="#1B153D"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle1"
+        app:layout_constraintTop_toBottomOf="@id/fond_applewatch1"
+        />
+
+    <TextView
+        android:id="@+id/textseries7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:elevation="9dp"
+        android:text="Series 7"
+        android:textColor="#9095A6"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle1"
+        app:layout_constraintTop_toBottomOf="@id/textapplewatch"
+        />
+
+    <TextView
+        android:id="@+id/prixapplewatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:elevation="9dp"
+        android:text="$799"
+        android:textColor="#5B41FF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle1"
+        app:layout_constraintTop_toBottomOf="@id/textseries7"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/whiteRectangle2"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintStart_toEndOf="@id/whiteRectangle1"
+        app:layout_constraintTop_toTopOf="@id/whiteRectangle1" >
+        <Button
+            android:id="@+id/buttongalaxywatch"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:background="#00FFFFFF"
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/whiteRectangle2" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/fond_galaxywatch"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fondgalaxywatch"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle2"
+        app:layout_constraintTop_toTopOf="@id/whiteRectangle2"
+        android:elevation="9dp"
+        />
+    <ImageView
+        android:id="@+id/galaxywatch"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="25dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/galaxywatch"
+        app:layout_constraintStart_toStartOf="@id/fond_galaxywatch"
+        app:layout_constraintTop_toTopOf="@id/fond_galaxywatch"
+        app:layout_constraintBottom_toBottomOf="@id/fond_galaxywatch"
+        android:elevation="9dp"
+        />
+
+    <TextView
+        android:id="@+id/textgalaxywatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:elevation="9dp"
+        android:text="Galaxy Watch"
+        android:textColor="#1B153D"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle2"
+        app:layout_constraintTop_toBottomOf="@id/fond_galaxywatch"
+        />
+
+    <TextView
+        android:id="@+id/textseries4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:elevation="9dp"
+        android:text="Series 4"
+        android:textColor="#9095A6"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle2"
+        app:layout_constraintTop_toBottomOf="@id/textgalaxywatch"
+        />
+
+    <TextView
+        android:id="@+id/prixgalaxywatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:elevation="9dp"
+        android:text="$599"
+        android:textColor="#5B41FF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle2"
+        app:layout_constraintTop_toBottomOf="@id/textseries4"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/whiteRectangle3"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/whiteRectangle1" >
+        <Button
+            android:id="@+id/buttonmiwatch"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:background="#00FFFFFF"
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/whiteRectangle3" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/fond_miwatch"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fondmiwatch"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle3"
+        app:layout_constraintTop_toTopOf="@id/whiteRectangle3"
+        android:elevation="9dp"
+        />
+    <ImageView
+        android:id="@+id/miwatch"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="25dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/miwatch"
+        app:layout_constraintStart_toStartOf="@id/fond_miwatch"
+        app:layout_constraintTop_toTopOf="@id/fond_miwatch"
+        app:layout_constraintBottom_toBottomOf="@id/fond_miwatch"
+        android:elevation="9dp"
+        />
+
+    <TextView
+        android:id="@+id/textmiwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:elevation="9dp"
+        android:text="Mi Watch"
+        android:textColor="#1B153D"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle3"
+        app:layout_constraintTop_toBottomOf="@id/fond_miwatch"
+        />
+
+    <TextView
+        android:id="@+id/textallseries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:elevation="9dp"
+        android:text="All Series"
+        android:textColor="#9095A6"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle3"
+        app:layout_constraintTop_toBottomOf="@id/textmiwatch"
+        />
+
+    <TextView
+        android:id="@+id/prixmiwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:elevation="9dp"
+        android:text="$299"
+        android:textColor="#5B41FF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle3"
+        app:layout_constraintTop_toBottomOf="@id/textallseries"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/whiteRectangle4"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintStart_toEndOf="@id/whiteRectangle3"
+        app:layout_constraintTop_toTopOf="@id/whiteRectangle3"
+        >
+        <Button
+            android:id="@+id/buttonamazfit"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:background="#00FFFFFF"
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/whiteRectangle4" />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/fond_amazfit"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fondamazfit"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle4"
+        app:layout_constraintTop_toTopOf="@id/whiteRectangle4"
+        android:elevation="9dp"
+        />
+    <ImageView
+        android:id="@+id/amazfit"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="25dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/amazfit"
+        app:layout_constraintStart_toStartOf="@id/fond_amazfit"
+        app:layout_constraintTop_toTopOf="@id/fond_amazfit"
+        app:layout_constraintBottom_toBottomOf="@id/fond_amazfit"
+        android:elevation="9dp"
+        />
+
+    <TextView
+        android:id="@+id/textamazfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:elevation="9dp"
+        android:text="Amazfit Bip U"
+        android:textColor="#1B153D"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle4"
+        app:layout_constraintTop_toBottomOf="@id/fond_amazfit"
+        />
+
+    <TextView
+        android:id="@+id/textproseries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:elevation="9dp"
+        android:text="Pro Series"
+        android:textColor="#9095A6"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle4"
+        app:layout_constraintTop_toBottomOf="@id/textamazfit"
+        />
+
+    <TextView
+        android:id="@+id/prixamazfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:elevation="9dp"
+        android:text="$199"
+        android:textColor="#5B41FF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/whiteRectangle4"
+        app:layout_constraintTop_toBottomOf="@id/textproseries"
+        />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
