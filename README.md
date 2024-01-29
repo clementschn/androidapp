@@ -5,5 +5,14 @@ Le modèle choisi est celui des montres connectées d'Apple que l'on peut retrou
 https://www.figma.com/file/6Y0MqDlAYqppkI1uefrnE1/TP-Application-design?type=design&node-id=0-1&mode=design&t=KDAnj893i8dwsRCH-0
 
 # Montres connectées
+## Introduction
+Voci donc un léger résumé de ce que j'ai entrepris:
+Modèle :        Montres connectées
+Bonus :         Oui
+Technologie :   Android
+Code :          xml
+
+## Explication du code
+
 
 
